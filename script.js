@@ -3,7 +3,7 @@ const jokeBtn = document.getElementById('jokeBtn')
 
 jokeBtn.addEventListener('click', generateJoke)
 
-generateJoke()
+ 
 
 async function generateJoke() {
     const config = {
@@ -19,3 +19,5 @@ async function generateJoke() {
     jokeEl.innerHTML = data.joke
 
 }
+
+generateJoke(await)
