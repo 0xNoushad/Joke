@@ -19,4 +19,4 @@ async function generateJoke() {
     jokeEl.innerHTML = data.joke
 }
 
-generateJoke(await) ;
+generateJoke();
