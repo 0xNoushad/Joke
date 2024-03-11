@@ -12,7 +12,7 @@ async function generateJoke() {
         },
     }
 
-    const res = await fetch('http://icanhazdadjoke.com', config)
+  const res = await fetch('https://icanhazdadjoke.com', config)
 
     const data = await res.json()
 
